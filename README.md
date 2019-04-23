@@ -1,0 +1,2 @@
+# IMDB-Scraper-using-Beatiful-Soup-and-request-in-python-
+I have scraped Imdb which has the details of  top 250 Indian rated movies using PYTHON ,  REQUEST(python's library for HTTP request )  and  BEAUTIFUL SOUP(python's library for parsing data from xml and html files) .In which i did some analysis like list of all 250 movies,grouping them according to the year in which they were released,scraping the list  of the cast working in a particular movie etc
