@@ -16,7 +16,7 @@ def scrape_top_list():
 
 	# if file does not exist it will make a request to a server and store the data in a file (caching)
 	a=random.randint(1,3)
-	time.sleep(a)
+	time.sleep(a)  #delaying  a request for random seconds between 1 and 3 so that our request is not consistent.
 	url="https://www.imdb.com/india/top-rated-indian-movies/"
 	data=requests.get(url)
 	soup=BeautifulSoup(data.text,"html.parser")
